@@ -18,7 +18,7 @@ See a [demo](http://renyuanz.github.io/leonids/) hosted on GitHub.
 ```
 git clone https://github.com/renyuanz/leonids
 cd leonids
-jekyll server
+bundle exec jekyll serve
 ```
 
 Check out your awesome blog at `http://localhost:4000` and Cheers!

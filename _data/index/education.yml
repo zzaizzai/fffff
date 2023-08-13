@@ -1,8 +1,9 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+- name: Mie Universiy
+  date: 2021 - 2022 
+  grade: M.S.
+  major: Department of Chemistry for Materials
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: Mie Universiy
+  date: 2016 - 2020
+  grade: B.S.
+  major: Department of Chemistry for Materials
