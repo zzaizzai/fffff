@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /archive/
+permalink: /about/
 ---
 
 <div class="archive">
@@ -24,9 +24,10 @@ permalink: /archive/
     </ul>
     {% endfor %}
   </div> -->
+  <h3>Contact</h3>
+  ...
 
-
-  <h2>Work Experience</h2>
+  <h3>Work Experience</h3>
   {% for career in site.data.index.careers %}
 
   <h5>{{ career.job }}</h5>
@@ -35,7 +36,7 @@ permalink: /archive/
   <br>
   {% endfor %}
 
-  <h2>Education</h2>
+  <h3>Education</h3>
   {% for edu in site.data.index.education %}
 
   <h5>{{ edu.grade }} {{ edu.major }}</h5>
