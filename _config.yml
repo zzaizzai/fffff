@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: my-profile
 email:
 description: A simple and awesome blog theme powered by jekyll.
 url: /my-profile
@@ -33,11 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: kogure junsai
+  avatar: avatar.png
+  job: "internal system engineer"
+  bio: "hello!"
+  email: junsai0530[a]gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -48,7 +48,8 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: zzaizzai
+  qiita: junzai
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username

@@ -24,9 +24,14 @@ permalink: /about/
     </ul>
     {% endfor %}
   </div> -->
-  <h3>Contact</h3>
-  ...
 
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+
+
+  <h3>Contact</h3>
+  <div>{{author.email}}</div>
+  <a href=https://github.com/{{author.github}}>https://github.com/{{author.github}}</a> <br>
+  <a href=https://qiita.com/{{author.qiita}}>https://qiita.com/{{author.qiita}}</a> <br><br>
   <h3>Work Experience</h3>
   {% for career in site.data.index.careers %}
 
