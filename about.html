@@ -26,7 +26,14 @@ permalink: /about/
   </div> -->
 
 {% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+<style>
 
+h5 {
+  line-height: 1.0;
+  margin-bottom: 0px;
+}
+
+</style>
 
   <h3>Contact</h3>
   <div>{{author.email}}</div>
@@ -38,6 +45,7 @@ permalink: /about/
   <h5>{{ career.job }}</h5>
   <div>{{ career.name }}</div>
   <div>{{ career.date }}</div>
+  <div> Skills: {{ career.skill }}</div>
   <br>
   {% endfor %}
 
@@ -47,6 +55,7 @@ permalink: /about/
   <h5>{{ edu.grade }} {{ edu.major }}</h5>
   <div>{{ edu.name }}</div>
   <div>{{ edu.date }}</div>
+  <div></div>
   <br>
   {% endfor %}
 
