@@ -1,12 +1,12 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
-- name: japan company of manufacturing industry
+- name: Automobile Parts Company in Japan
   date: Aug. 2023 - Now
-  job: Internal System Engineer
-  skill: ERP, VBA, python ... 
+  job: Systems Engineer
+  skill: ERP(Operations Management), VBA, python ... 
 
-- name: japan company of manufacturing industry
+- name: Automobile Parts Company in Japan
   date: Jul. 2022 - Jul. 2023
-  job: Chemical Material Development Engineer
+  job: Materials Research Engineer
   skill: rubber hose for vehicles, adhesive technology
